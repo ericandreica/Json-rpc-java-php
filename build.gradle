@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'Gte'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-core', version: '8.5.23'
+    compile 'com.google.code.gson:gson:+'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'TomcatServer'
+    }
+}

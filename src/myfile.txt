@@ -1,0 +1,4 @@
+file1,ana are mere,0dbab6d0c841278d33be207f14eeab8b
+file2,ana are mere,0dbab6d0c841278d33be207f14eeab8b
+file3,asta este un fisier,49f7474b4f097240d8b76fc587783b19
+file3,asta,f10b0c134cc9601ba7711a9b2c9444ad
